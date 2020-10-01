@@ -1,5 +1,5 @@
 {% set name = "pytorch-forecasting" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
-  sha256: 98e8bcff52bff7ec8d07dbce1ccff6caf11a578f8b7ae16b406abf265b07c650
+  sha256: c3592f549246505ff95f97ff5237c0ef6124d0b29591a318ff8b9aa535042320
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -44,7 +44,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Timeseries forecasting with PyTorch'
+  summary: Timeseries forecasting with PyTorch
   description: |
     PyTorch Forecasting is a timeseries forecasting package for PyTorch build on PyTorch Lightning.
     It provides timeseries datasets and dataloaders, various ways to normalize variables
