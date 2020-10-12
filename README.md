@@ -5,9 +5,13 @@ Home: https://github.com/jdb78/pytorch-forecasting
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytorch-forecasting-feedstock/blob/master/LICENSE.txt)
 
 Summary: Timeseries forecasting with PyTorch
+
+Development: https://github.com/jdb78/pytorch-forecasting
+
+Documentation: https://pytorch-forecasting.readthedocs.io/
 
 PyTorch Forecasting is a timeseries forecasting package for PyTorch build on PyTorch Lightning.
 It provides timeseries datasets and dataloaders, various ways to normalize variables
