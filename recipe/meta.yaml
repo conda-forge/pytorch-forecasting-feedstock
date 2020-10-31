@@ -1,5 +1,5 @@
 {% set name = "pytorch-forecasting" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
-  sha256: 20d686d848019a9f6a2f1e44de48ccfc169a2ad3c7740750123c51e46b8dc30d
+  sha256: 1966e4eb0c3accd5eedde03dac8bdc8ebbc4ffe8109a911434593805158da0d3
 
 build:
   noarch: python
@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.6
     - poetry >=1.0.5
   run:
-    - pytorch-lightning >=0.10.0
+    - pytorch-lightning >=0.10.0,<1.0.4
     - optuna >=2.0.0
-    - python >=3.7
+    - python >=3.6
     - pandas >=1.1.0
     - scikit-learn >=0.23.0
     - scipy >=1.5.2
