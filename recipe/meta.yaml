@@ -33,8 +33,7 @@ requirements:
     - prettytable <0.8
 
 test:
-  imports:
-    - pytorch_forecasting
+  imports: []
   requires:
     - pip
   commands:
