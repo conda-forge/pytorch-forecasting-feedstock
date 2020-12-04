@@ -1,5 +1,5 @@
 {% set name = "pytorch-forecasting" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
-  sha256: 63794235ef24160ea4dce5f8eda519bc24dc3b066b7198cbd203967cf528a35c
+  sha256: c212f1806018b079732c129b97b69a077a900cf6a9d0c49a31ba0493907d2b11
 
 build:
   noarch: python
@@ -33,8 +33,7 @@ requirements:
     - prettytable <0.8
 
 test:
-  imports:
-    - pytorch_forecasting
+  imports: []
   requires:
     - pip
   commands:
