@@ -1,5 +1,5 @@
 {% set name = "pytorch-forecasting" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
-  sha256: c212f1806018b079732c129b97b69a077a900cf6a9d0c49a31ba0493907d2b11
+  sha256: b313fea1418c7f9d2cbe1bfb6dc4ac482197afbd7b47b8a93450d75a888bc6f4
 
 build:
   noarch: python
