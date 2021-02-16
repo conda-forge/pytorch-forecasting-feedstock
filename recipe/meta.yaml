@@ -33,11 +33,10 @@ requirements:
     - prettytable <0.8
 
 test:
-  imports: []
+  imports:
+    - pytorch_forecasting
   requires:
     - pip
-  commands:
-    - python -m pip check
 
 about:
   home: https://github.com/jdb78/pytorch-forecasting
