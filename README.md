@@ -5,7 +5,7 @@ Home: https://github.com/jdb78/pytorch-forecasting
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytorch-forecasting-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytorch-forecasting-feedstock/blob/main/LICENSE.txt)
 
 Summary: Timeseries forecasting with PyTorch
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10713&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch-forecasting-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10713&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch-forecasting-feedstock?branchName=main">
       </a>
     </td>
   </tr>
