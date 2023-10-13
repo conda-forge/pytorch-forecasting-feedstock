@@ -1,11 +1,11 @@
-About pytorch-forecasting
-=========================
+About pytorch-forecasting-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytorch-forecasting-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jdb78/pytorch-forecasting
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytorch-forecasting-feedstock/blob/main/LICENSE.txt)
 
 Summary: Timeseries forecasting with PyTorch
 
@@ -154,4 +154,5 @@ Feedstock Maintainers
 =====================
 
 * [@jdb78](https://github.com/jdb78/)
+* [@pavelzw](https://github.com/pavelzw/)
 
