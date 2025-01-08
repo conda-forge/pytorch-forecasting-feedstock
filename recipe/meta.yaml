@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python < 3.13
     - poetry >=1.0.5
   run:
     - pytorch-lightning >=1.0.4
