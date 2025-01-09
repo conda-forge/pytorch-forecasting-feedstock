@@ -18,19 +18,20 @@ requirements:
   host:
     - pip
     - python >=3.9,<3.13
-    - poetry >=1.0.5
+    - setuptools >=1.0.5
   run:
-    - lightning >=2.0.0
-    - optuna >=2.3.0
-    - python >=3.6.1
-    - pandas >=1.3.0
-    - scikit-learn >=1.2.0
-    - scipy >=1.8.0
-    - cloudpickle >=1.5.0
-    - statsmodels >=0.11.0
-    - pytorch >=2.0.0
-    - matplotlib-base >=3.3.1
-    - prettytable <0.8
+    - lightning >=2.0.0,<3.0.0
+    - optuna >=3.1.0,<5.0.0
+    - pandas >=1.3.0,<3.0.0
+    - scikit-learn >=1.2,<2.0
+    - scipy >=1.8,<2.0
+    - statsmodels
+    - pytorch >=2.0.0,!=2.0.1,<3.0.0
+    - matplotlib
+    - numpy<=3.0.0
+    - cpflows
+    - optuna-integration
+    - pytorch_optimizer >=2.5.1,<4.0.0
 
 test:
   imports:
