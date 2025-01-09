@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pytorch_forecasting/pytorch_forecasting-{{ version }}.tar.gz
   sha256: 41e5449c4abb54e54bd431408943f5be602b0d0e05973c04aef7d409062cdd78
 
 build:
@@ -28,7 +28,7 @@ requirements:
     - scipy >=1.8,<2.0
     - statsmodels
     - pytorch >=2.0.0,!=2.0.1,<3.0.0
-    - matplotlib
+    - matplotlib-base
     - numpy <=3.0.0
     - cpflows
     - optuna-integration
@@ -39,6 +39,7 @@ test:
     - pytorch_forecasting
   requires:
     - pip
+    - python >=3.9
 
 about:
   home: https://github.com/jdb78/pytorch-forecasting
