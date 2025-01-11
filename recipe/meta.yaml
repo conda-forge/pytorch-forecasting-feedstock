@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.9,<3.13
-    - setuptools >=1.0.5
+    - setuptools >=70
   run:
     - lightning >=2.0.0,<3.0.0
     - optuna >=3.1.0,<5.0.0
