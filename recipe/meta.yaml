@@ -23,9 +23,16 @@ requirements:
     - numpy <=3.0.0
     - pytorch >=2.0.0,!=2.0.1,<3.0.0
     - lightning >=2.0.0,<3.0.0
-    - scipy >=1.8,<2.0
     - pandas >=1.3.0,<3.0.0
     - scikit-learn >=1.2,<2.0
+    - scipy >=1.8,<2.0
+
+test:
+  imports:
+    - pytorch_forecasting
+  requires:
+    - pip
+    - python >=3.9
 
 about:
   home: https://github.com/jdb78/pytorch-forecasting
