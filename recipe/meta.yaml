@@ -13,45 +13,19 @@ build:
   noarch: python
   number: 0
 
-outputs:
-  - name: pytorch-forecasting
-    requirements:
-      host:
-        - pip
-        - python >=3.9,<3.13
-        - setuptools >=70
-      run:
-        - python >=3.9
-        - numpy <=3.0.0
-        - pytorch >=2.0.0,!=2.0.1,<3.0.0
-        - lightning >=2.0.0,<3.0.0
-        - scipy >=1.8,<2.0
-        - pandas >=1.3.0,<3.0.0
-        - scikit-learn >=1.2,<2.0
-
-    test:
-      imports:
-        - pytorch_forecasting
-      requires:
-        - pip
-        - python >=3.9
-
-  - name: pytorch-forecasting-all-extras
-    requirements:
-      run:
-        - python
-        - {{ pin_subpackage("pytorch-forecasting", max_pin='x.x.x') }}
-        - optuna >=3.1.0,<5.0.0
-        - statsmodels
-        - matplotlib-base
-        - optuna-integration
-
-    test:
-      imports:
-        - pytorch_forecasting
-      requires:
-        - pip
-        - python >=3.9
+requirements:
+  host:
+    - pip
+    - python >=3.9,<3.13
+    - setuptools >=70
+  run:
+    - python >=3.9
+    - numpy <=3.0.0
+    - pytorch >=2.0.0,!=2.0.1,<3.0.0
+    - lightning >=2.0.0,<3.0.0
+    - scipy >=1.8,<2.0
+    - pandas >=1.3.0,<3.0.0
+    - scikit-learn >=1.2,<2.0
 
 about:
   home: https://github.com/jdb78/pytorch-forecasting
