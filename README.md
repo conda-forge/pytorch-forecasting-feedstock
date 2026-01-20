@@ -156,5 +156,7 @@ Feedstock Maintainers
 * [@benheid](https://github.com/benheid/)
 * [@fkiraly](https://github.com/fkiraly/)
 * [@jdb78](https://github.com/jdb78/)
+* [@phoeenniixx](https://github.com/phoeenniixx/)
+* [@pranavbhatp](https://github.com/pranavbhatp/)
 * [@yarnabrina](https://github.com/yarnabrina/)
 
